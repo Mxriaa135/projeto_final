@@ -1,0 +1,11 @@
+<div class="main">
+  <form>
+    <p>Cadastrar Jogo</p>
+    <input type="number" name="primeiro-campo" placeholder="Id" [(ngModel)]="jogo.id">
+    <input type="text" name="segundo-campo" placeholder="Nome" [(ngModel)]="jogo.nome">
+    <input type="text" name="terceiro-campo" placeholder="Descrição" [(ngModel)]="jogo.descricao">
+     <input type="text" name="quarto-campo" placeholder="Link da imagem" [(ngModel)]="jogo.imagem">
+    <input type="number" name="quinto-campo" placeholder="Preço" [(ngModel)]="jogo.preco">
+    <button class="btn btn-primary" (click)="saveJogo()">Cadastrar</button>
+</form>
+</div>
